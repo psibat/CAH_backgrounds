@@ -3,7 +3,7 @@ folder=$1
 
 questions_dir=$folder"/questions/"
 answers_dir=$folder"/answers/"
-result_dir="/tmp/result/"
+result_dir="/tmp/cah_result/"
 
 if [ ! -d $result_dir ]
 then

@@ -2,8 +2,8 @@
 
 if [ "$#" -eq 0 ]
 then
-	rm -rf /tmp/result/
+	rm -rf /tmp/cah_result/
 else
-	rm /tmp/result/$1result.png
+	rm /tmp/cah_result/$1result.png
 fi
 

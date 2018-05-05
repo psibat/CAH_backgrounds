@@ -1,8 +1,8 @@
 Cards Against Humanity background generator
 (rough script - could be a lot cleaner)
 
-generate_image.sh:
-	Generates the background image and outputs to /tmp/result/ as $2result.png.
+generate_image:
+	Generates the background image and outputs to /tmp/cah_result/ as $2result.png.
 	Requires a root directory containing: 
 				answers/ - dir full of individual answer card images
 				questions/ - dir full of individual question card images (3 answer questions must start with 'T' 2 answer questions must start with 'D')
